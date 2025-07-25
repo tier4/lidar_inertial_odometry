@@ -39,11 +39,6 @@
 
 #include <execution>
 
-enum class SmootherType {
-  FACTOR_GRAPH = 0,
-  KALMAN_FILTER = 1,
-};
-
 class LidarInertialOdometryNode : public rclcpp::Node
 {
 public:
